@@ -1,0 +1,400 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.listanav1, .listanav2, .listanav3{
+    list-style: none;
+    float: right;
+    padding: 15px;
+    text-transform: capitalize;  
+    letter-spacing: 1.5px;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: #daa520;
+}
+
+#divpai{
+    position: relative;
+}
+
+.listanav1:hover{
+    transition: 1s linear;
+    background-color: #666;
+}
+
+.listanav2:hover{
+    transition: 1s linear;
+    background-color: #666;
+}
+
+.listanav3:hover{
+    transition: 1s linear;
+    background-color: #666;
+}
+
+h1{
+    margin: 0;
+}
+
+.titulo{
+    float: left;
+    margin: 0 0 0 35px;
+    padding: 9px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+#navegacao{
+    background-color: #333;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+    padding: 8px;  
+    border-bottom: 1px solid #daa520;
+}
+
+#principal{
+    background-image: url(./image/2812883.jpg);
+    height: 450px;
+    margin-bottom: 100px;
+    background-size: cover;  
+}
+
+.textheader{
+    margin: 0;
+    color: white;
+    position: absolute;
+    right: 50px;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 62px;
+    text-shadow: 2px 2px 4px #666;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    text-align: right;
+}
+
+ul{
+    margin:0 35px 0 0;
+}
+
+.centro{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+#container{
+    text-align: center;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    letter-spacing: 4.5px;
+}
+
+.card1{
+    width: 19%;
+    height: 400px;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    background-image: url(./image/burgmax.jpg);
+    background-size: cover;
+    background-position: center, bottom;
+    letter-spacing: 1.5;
+}
+
+.card2{
+    width: 19%;
+    height: 400px;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    background-image: url(./image/burgeler.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.card3{
+    display: inline-block;
+    width: 19%;
+    height: 400px;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    background-image: url(./image/batata.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card4{
+    display: inline-block;
+    width: 19%;
+    height: 400px;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    background-image: url(./image/hotdog.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.card5{
+    display: inline-block;
+    width: 19%;
+    height: 400px;
+    margin: 20px 0;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    background-image: url(./image/acai.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.prcard{
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    padding: 14px;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    text-align: center;    
+}
+
+.containersection{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 0;
+    overflow: hidden;    
+}
+.divleft{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.divright{
+    width:50%;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;    
+}
+
+iframe{
+    height: 400px;
+    width: 100%;
+}
+
+h3{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.textoPag{
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+footer li{
+    font-size: 16px;
+    list-style: none;
+}
+
+.divfooter1{
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.divfooter2{
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.divfooter3{
+    width: 32%;
+    float: left;
+}
+
+.divfooter3 li{
+    margin: 10px;
+}
+
+.divfooter1 li{
+    margin: 15px;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 50%;
+    color: black;
+}
+
+ol{
+    margin: 0;
+    padding: 0; 
+    
+}
+.divfooter2 li{
+    list-style: none;
+    margin: 10px;
+}
+
+.div3footer{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+hr{
+    border-color: rgba(255, 255, 255, .2);
+    clear: left;
+}
+
+footer ol a{
+    color: white;
+                  
+}
+
+.linkfooter{
+    width: 90%;
+    margin: auto;
+}
+
+.linkfooter a{
+    margin-right: 40px ;
+    color: white;
+    text-align: center;
+    
+        
+    }
+    @media only screen and (max-width: 600px){
+    
+    .textheader{
+        font-size: 56px;
+        right: 5px;
+    }
+       .card1{
+        width: 49%;
+    }
+    
+    .card2{
+        width: 49%;
+    }
+    
+    .card3{
+        width: 49%;
+    }
+    
+    .card4{
+        width: 49%;
+    }
+    
+    .card5{
+        width: 49%;
+    }
+/*}
+@media screen and (max-width: 600px){*/
+    
+    .listanav{
+        float: none; 
+    }
+    
+    .titulo{
+    font-size: 32px;
+    }
+    
+    #navegacao{
+        padding: 8px;  
+        border-bottom: 1px solid #daa520;
+        
+    }
+    
+    nav ul{
+        float: right;
+        right: 0;
+        top: 10px;
+    }
+    
+    .textheader{
+        font-size: 50px;
+        right: 5px;
+    }
+    
+    .card1{
+        width: 49%;
+    }
+    
+    .card2{
+        width: 49%;
+    }
+    
+    .card3{
+        width: 49%;
+    }
+    
+    .card4{
+        width: 49%;
+    }
+    
+    .card5{
+        width: 49%;
+    }
+    
+    .containersection{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    
+    .divleft{
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+        box-sizing: border-box;
+        float: none;
+    }
+
+    .divright{
+        width: 100%;
+        float: none;
+        padding: 25px;
+        box-sizing: border-box;   
+        display: block;
+    }
+    
+    iframe{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}

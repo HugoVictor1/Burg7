@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-br">
+   <head>
+       <title>Restaurante</title>
+       <meta charset="utf-8">
+       <meta nome="author" content="victor">
+       <meta nome="description" content=" sites para programadores">
+       <meta name="viewport" content="widht=device-widht">
+       <link href="../style.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            background-image: url(../image/plano_restaurante.jpg);
+            font-family: sans-serif;
+            margin: 0;
+            background-attachment: fixed;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        .listanav{
+            list-style: none;
+            float: right;
+            padding: 15px;
+            text-transform: capitalize;  
+            letter-spacing: 1.5px;
+            font-size: 22px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #daa520;
+        }
+
+        #divpai{
+            position: relative;
+        }
+
+        .listanav:hover{
+            transition: 1s linear;
+            background-color: #666;
+        }
+        h1{
+            margin: 0;
+        }
+
+        .titulo{
+            float: left;
+            margin: 0 0 0 35px;
+            padding: 9px;
+            color: white;
+            font-family: 'Dancing Script', cursive;
+            font-size: 28px;
+        }
+
+        #navegacao{
+            background-color: #333;
+            margin: 0;
+            clear: both;
+            overflow: hidden;
+            padding: 8px;
+            border-bottom: 1px solid #daa520;
+        }
+
+        section{
+           height: 100%;
+           width: 90%;
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 8px;
+           background-color: rgba(0, 0, 0, 0.6);
+           margin: 20px;
+           padding: 10px;
+           overflow: hidden;
+        }
+
+        .section4{
+           height: 300px;
+           width: 90%;
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 8px;
+           background-color: white;
+           margin: 20px;
+           padding: 10px;
+           overflow: hidden;
+        }
+
+        .divtitulo{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           font-size: 26px;
+        }
+
+        .divparagrafo{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           letter-spacing: 1.5px;
+        }
+
+        .divtitulo2{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           font-size: 26px;
+        }
+
+        .divparagrafo2{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           letter-spacing: 1.5px;
+        }
+
+        .divtitulo3{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           font-size: 26px;
+        }
+
+        .divparagrafo3{
+           float: left;
+           width: 45%;
+           margin-left: 2%;
+           color: white;
+           letter-spacing: 1.5px;
+
+        }
+
+        .divtitulo4{
+           float: left;
+           width: 25%;
+           margin-left: 2%;
+           font-size: 26px;
+           text-align: center;
+        }
+        
+        .divparagrafo4{
+           float: left;
+           width: 70%;
+           margin-left: 2%;
+           color: white;
+           letter-spacing: 1.5px;
+        }
+
+        .divtitulo4 p{
+           font-family: 'Dancing Script', cursive;
+           font-size: 58px;
+           margin: 0;
+           color: black;
+        }
+
+        .divparagrafo4 p{
+           color: black;
+        }
+
+        input, textarea{
+           display: block;
+           width: 100%;
+           margin-top: 20px;
+        }
+
+        button{
+           display: block;
+           margin-top: 20px;
+           padding: 6px;
+        }
+
+        textarea{
+           height: 100px;
+           resize: none;
+        }
+
+        input{
+           padding: 6px 0;
+        }
+
+    
+        hr{
+            border-color: rgba(255, 255, 255, .2);
+            clear: left;
+        }
+        
+    @media screen and (max-width: 600px){
+        .listanav{
+            float: none; 
+        }
+
+        .titulo{
+            font-size: 32px;
+        }
+
+        #navegacao{
+            overflow: hidden;
+        }
+
+        nav ul{
+            float: right;
+            right: 0;
+            top: 10px;
+        }
+
+        .section4{
+            float: none;
+            height: 100%;
+        }
+
+        .divtitulo4{
+            float: none;
+        }
+
+        .divparagrafo4{
+            float: none;
+        }
+    }
+    </style>
+   </head>
+   <body>
+       <header>
+           <div id="divpai" >
+                <div id="navegacao" >
+                       <nav>
+                           <h1><a class="titulo" href="../index.html" alt="" >GoodPlace</a></h1>
+                               <ul>
+                                <a href="cadastro.html" alt="" ><li class="listanav1">cadastro</li></a>
+                                <a href="cardapio.html" alt="" ><li class="listanav2">cardápio</li></a>
+                                <a href="../index.html" alt="" ><li class="listanav3">home </li></a>
+                               </ul>
+                        </nav>
+                </div> 
+           </div>
+           <div>
+           </div>
+       </header>
+       <main>
+           <div>
+               <section>
+                   <div class="divtitulo">
+                       <p>5 Anos de <strong>Goodplace</strong></p>
+                   </div>
+                   <div class="divparagrafo">
+                       <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                   </div>
+                   </section>
+               <section>
+                   <div class="divtitulo2">
+                       <p>Nossos Padrões no estabelecimento</p>
+                   </div>
+                   <div class="divparagrafo2">
+                       <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                   </div>
+               </section>
+               <section>
+                   <div class="divtitulo3">
+                       <p>Preocupação com o meio Hambiente</p>
+                   </div>
+                   <div class="divparagrafo3">
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
+                   </div>
+               </section>
+               <section class="section4">
+                   <div class="divtitulo4">
+                       <p>GoodPlace</p>
+                   </div>
+                   <div class="divparagrafo4">
+                       <p>Deixa aqui sua experiência conosco!</p>
+                       <input>
+                       <textarea></textarea>
+                       <button>Enviar</button>
+                   </div>
+               </section>
+           </div>
+       </main>
+        <footer>
+           <div class="divfooter1">
+                <ol>
+                    <a href="https://www.facebook.com/"><li class="facebook"><img src="https://img.icons8.com/color/32/000000/facebook.png"/>facebook</li></a>
+                    <a href="https://www.instagram.com/"><li class="instagram"><img src="https://img.icons8.com/color/32/000000/instagram-new.png"/>instagram</li></a>
+                    <a href="https://twitter.com"><li class="twitter"><img src="https://img.icons8.com/color/32/000000/twitter.png"/>twitter</li></a>
+                </ol>
+           </div>
+           <div class="divfooter2">
+               <ol>
+                   <li>Contato:</li>
+                   <li>telefone: (11) 2400-0024</li>
+                   <li>whatsapp: (11) 92400-0024</li>
+                   <li>Celular: (11) 90024-2400</li>
+               </ol>
+           </div>
+           <div class="divfooter3">
+               <ol>
+                <a href="sugestoes.html"><li>Sugestões</li></a>
+                <a href="curriculo.html"><li>Tranalhe conosco</li></a>
+                <a href="sobre.html"><li>sobre nós</li></a>
+               </ol>
+           </div>
+           <hr>
+           <div class="div3footer">Email: nossohamburguer@gmail.com | Estr. Juscelino Kubtischek de Oliveira, 5308 </div>
+
+           <hr>
+           
+           <div class="linkfooter">
+                <a href="https://br.freepik.com/fotos-vetores-gratis/fundo">Fundo foto criado por freepik - br.freepik.com</a>
+                <a href="https://br.freepik.com/fotos-vetores-gratis/alimento">Alimento foto criado por Racool_studio - br.freepik.com</a>
+                <a href="https://br.freepik.com/fotos-vetores-gratis/alimento">Alimento foto criado por freepik - br.freepik.com</a>
+                <a href="https://br.freepik.com/fotos-vetores-gratis/fundo">Fundo foto criado por valeria_aksakova - br.freepik.com</a>
+                <a href="https://br.freepik.com/fotos-vetores-gratis/alimento">Alimento foto criado por freepik - br.freepik.com</a>
+                <a href="https://icons8.com/icon/13912/facebook">Facebook icon by Icons8</a>
+                <a href="https://icons8.com/icon/13963/twitter">Twitter icon by Icons8</a>
+                <a href="https://icons8.com/icon/ib61LSmZN0gD/email-aberto">Email aberto icon by Icons8</a>
+                <a href='https://br.freepik.com/fotos-vetores-gratis/fundo'>Fundo foto criado por tirachard - br.freepik.com</a>
+                <a href='https://br.freepik.com/fotos-vetores-gratis/fundo'>Fundo foto criado por freepik - br.freepik.com</a>
+                <a href='https://br.freepik.com/fotos-vetores-gratis/fundo'>Fundo foto criado por rawpixel.com - br.freepik.com</a>
+                <a href='https://br.freepik.com/fotos-vetores-gratis/alimento'>Alimento foto criado por freepik - br.freepik.com</a>
+            </div>
+       </footer>
+   </body>
+</html>
